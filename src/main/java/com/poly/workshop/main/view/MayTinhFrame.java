@@ -40,7 +40,7 @@ public class MayTinhFrame extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
         txtTenMayTinh = new javax.swing.JTextField();
         cbbMaHang = new javax.swing.JComboBox<>();
-        txtMayTinh = new javax.swing.JTextField();
+        txtMaMayTinh = new javax.swing.JTextField();
         txtGia = new javax.swing.JTextField();
         txtMoTa = new javax.swing.JTextField();
         txtMauSac = new javax.swing.JTextField();
@@ -109,13 +109,10 @@ public class MayTinhFrame extends javax.swing.JFrame {
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel2)
                             .addComponent(jLabel3))
+                        .addGap(30, 30, 30)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(30, 30, 30)
-                                .addComponent(cbbMaHang, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(42, 42, 42)
-                                .addComponent(txtMayTinh))))
+                            .addComponent(txtMaMayTinh)
+                            .addComponent(cbbMaHang, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel6)
@@ -147,7 +144,7 @@ public class MayTinhFrame extends javax.swing.JFrame {
                 .addGap(15, 15, 15)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
-                    .addComponent(txtMayTinh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtMaMayTinh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
@@ -283,8 +280,8 @@ public class MayTinhFrame extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable tbMayTinh;
     private javax.swing.JTextField txtGia;
+    private javax.swing.JTextField txtMaMayTinh;
     private javax.swing.JTextField txtMauSac;
-    private javax.swing.JTextField txtMayTinh;
     private javax.swing.JTextField txtMoTa;
     private javax.swing.JTextField txtTenMayTinh;
     // End of variables declaration//GEN-END:variables
